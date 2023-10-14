@@ -16,6 +16,7 @@ This Projects is developed by (Forida Parven Anne)
 
 
 ## Live Site Link
+https://652aaf211393ec41266b2b05--bejewelled-baklava-0e3348.netlify.app/
 
 ## Vercel Link
  https://users-information-server.vercel.app/
