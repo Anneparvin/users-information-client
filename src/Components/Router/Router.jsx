@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Main from "../Layouts/Main";
 import Home from "../Pages/Home/Home";
 import DataPerson from "../Pages/DataPerson/DataPerson";
+import SetPerson from "../Pages/SetPerson/SetPerson";
 
 export const router = createBrowserRouter([
     {
@@ -15,6 +16,11 @@ export const router = createBrowserRouter([
         {
             path:"/dataperson/:id",
             element:<DataPerson></DataPerson>,
+            loader: async({params}) => fetch(`https://users-information-server.vercel.app/userinfo/${params.id}`)  
+        },
+        {
+            path:"/setperson/:id",
+            element:<SetPerson></SetPerson>,
             loader: async({params}) => fetch(`https://users-information-server.vercel.app/userinfo/${params.id}`)  
         }
     

@@ -12,11 +12,7 @@ This Projects is developed by (Forida Parven Anne)
 7. Express.JS
 8. Cors
 9. Dotenv
-10.
-11. 
-12. 
-13. 
-14. 
+
 
 
 ## Live Site Link
@@ -25,5 +21,5 @@ This Projects is developed by (Forida Parven Anne)
  https://users-information-server.vercel.app/
 
 ## Github Link
-Client Side: 
+Client Side: https://github.com/Anneparvin/users-information-client
 server side: https://github.com/Anneparvin/users-information-server

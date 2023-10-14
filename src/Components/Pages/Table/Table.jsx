@@ -27,13 +27,11 @@ const Table = (data) => {
       <td>{email}</td>
       <td>{phone}</td>
       <td>{website}</td>
-     <td>
-      {/* <Link to={`/dataperson/${id}`}> Link to the user details route with the ID parameter */}
-                <button className='bg-red-500 rounded-full p-2 btn btn-sm font-bold mt-4 text-white'>View Details</button>
-              {/* </Link> */}
-              </td>    
-     
-    </tr>
+      <td>
+      <button className='bg-red-500 rounded-full p-2 btn btn-sm font-bold mt-4 text-white'>View Details</button>
+
+    </td>
+      </tr>
   </tbody>
 </table> 
         </div>
